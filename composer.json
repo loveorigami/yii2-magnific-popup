@@ -1,0 +1,28 @@
+{
+  "name": "loveorigami/yii2-magnific-popup",
+  "description": "This widget is wrapper for awesome jQuery plugin Magnific Popup",
+  "keywords": [
+    "yii2",
+    "widget",
+    "magnific-popup"
+  ],
+  "version": "1.0",
+  "homepage": "https://github.com/loveorigami/yii2-magnific-popup",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lukyanov Andrey",
+      "homepage": "http://loveorigami.info"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/magnific-popup": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lo\\widgets\\magnific\\": "/src"
+    }
+  }
+}
